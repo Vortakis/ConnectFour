@@ -1,0 +1,50 @@
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\bin\Debug\ConnectFour.exe.config
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\bin\Debug\ConnectFour.exe
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\bin\Debug\ConnectFour.pdb
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\bin\Debug\ConnectFour.Logic.dll
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\bin\Debug\ConnectFour.Logic.pdb
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.csprojAssemblyReference.cache
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\View\MainWindow.g.cs
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\App.g.cs
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour_MarkupCompile.cache
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour_MarkupCompile.lref
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\View\MainWindow.baml
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.g.resources
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.Properties.Resources.resources
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.csproj.GenerateResource.cache
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.csproj.CoreCompileInputs.cache
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.csproj.CopyComplete
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.exe
+C:\Users\nicos\Downloads\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.pdb
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\bin\Debug\ConnectFour.exe.config
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\bin\Debug\ConnectFour.exe
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\bin\Debug\ConnectFour.pdb
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.csprojAssemblyReference.cache
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\View\MainWindow.g.cs
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\App.g.cs
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour_MarkupCompile.cache
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour_MarkupCompile.lref
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\View\MainWindow.baml
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.g.resources
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.Properties.Resources.resources
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.csproj.GenerateResource.cache
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.csproj.CoreCompileInputs.cache
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.exe
+C:\Users\nicos\Work Folders\Desktop\Connect-Four-master-20191125T063314Z-001\Connect-Four-master\ConnectFour\ConnectFour\obj\Debug\ConnectFour.pdb
+C:\_dev\connectfour\ConnectFour\bin\Debug\ConnectFour.exe.config
+C:\_dev\connectfour\ConnectFour\bin\Debug\ConnectFour.exe
+C:\_dev\connectfour\ConnectFour\bin\Debug\ConnectFour.pdb
+C:\_dev\connectfour\ConnectFour\obj\Debug\View\MainWindow.g.cs
+C:\_dev\connectfour\ConnectFour\obj\Debug\App.g.cs
+C:\_dev\connectfour\ConnectFour\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\_dev\connectfour\ConnectFour\obj\Debug\ConnectFour_MarkupCompile.cache
+C:\_dev\connectfour\ConnectFour\obj\Debug\ConnectFour_MarkupCompile.lref
+C:\_dev\connectfour\ConnectFour\obj\Debug\View\MainWindow.baml
+C:\_dev\connectfour\ConnectFour\obj\Debug\ConnectFour.g.resources
+C:\_dev\connectfour\ConnectFour\obj\Debug\ConnectFour.Properties.Resources.resources
+C:\_dev\connectfour\ConnectFour\obj\Debug\ConnectFour.csproj.GenerateResource.cache
+C:\_dev\connectfour\ConnectFour\obj\Debug\ConnectFour.csproj.CoreCompileInputs.cache
+C:\_dev\connectfour\ConnectFour\obj\Debug\ConnectFour.exe
+C:\_dev\connectfour\ConnectFour\obj\Debug\ConnectFour.pdb

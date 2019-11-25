@@ -1,0 +1,229 @@
+﻿<Window x:Class="ConnectFour.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ViewModel="clr-namespace:ConnectFour.ViewModel"
+        mc:Ignorable="d"
+        Title="Connect Four" ResizeMode="NoResize" Height="615.75" Width="764.5" Background="#FFFAFAFF" Icon="/ConnectFour;component/Resources/logo.png">
+    <Window.Resources>
+        <Style x:Key="NoMouseOverButton" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="BorderBrush" Value="Black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Window.DataContext>
+        <ViewModel:ConnectFourViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="yellowBackground.png"/>
+        </Grid.Background>
+
+        <Button Content="RESET" Command="{Binding ResetCommand}" HorizontalAlignment="Left" Height="51" Margin="622.501,10,0,0" VerticalAlignment="Top" Width="125.999" FontWeight="Bold" Style="{DynamicResource NoMouseOverButton}" >
+            <Button.Background>
+                <ImageBrush ImageSource="Button.png"/>
+            </Button.Background>
+        </Button>
+
+        <!--COLUMN 1-->
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[0]}" Height="65" Margin="136.574,126.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[1]}" Height="65" Margin="136.574,193.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[2]}" Height="65" Margin="136.574,259.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[3]}" Height="65" Margin="136.574,326.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[4]}" Height="65" Margin="136.574,392.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[5]}" Height="65" Margin="136.574,459.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+
+        <!--COLUMN 2-->
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[6]}" Height="65" Margin="205.574,126.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[7]}" Height="65" Margin="205.574,193.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[8]}" Height="65" Margin="205.574,259.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[9]}" Height="65" Margin="205.574,326.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[10]}" Height="65" Margin="205.574,392.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[11]}" Height="65" Margin="205.574,459.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+
+        <!--COLUMN 3-->
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[12]}" Height="65" Margin="274.574,126.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[13]}" Height="65" Margin="274.574,193.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[14]}" Height="65" Margin="274.574,259.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[15]}" Height="65" Margin="274.574,326.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[16]}" Height="65" Margin="274.574,392.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[17]}" Height="65" Margin="274.574,459.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+
+        <!--COLUMN 4-->
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[18]}" Height="65" Margin="343.574,126.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[19]}" Height="65" Margin="343.574,193.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[20]}" Height="65" Margin="343.574,259.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[21]}" Height="65" Margin="343.574,326.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[22]}" Height="65" Margin="343.574,392.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[23]}" Height="65" Margin="343.574,459.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+
+        <!--COLUMN 5-->
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[24]}" Height="65" Margin="412.574,126.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[25]}" Height="65" Margin="412.574,193.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[26]}" Height="65" Margin="412.574,259.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[27]}" Height="65" Margin="412.574,326.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[28]}" Height="65" Margin="412.574,392.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[29]}" Height="65" Margin="412.574,459.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+
+        <!--COLUMN 6-->
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[30]}" Height="65" Margin="481.574,126.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[31]}" Height="65" Margin="481.574,193.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[32]}" Height="65" Margin="481.574,259.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[33]}" Height="65" Margin="481.574,326.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[34]}" Height="65" Margin="481.574,392.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[35]}" Height="65" Margin="481.574,459.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+
+        <!--COLUMN 7-->
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[36]}" Height="65" Margin="550.574,126.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[37]}" Height="65" Margin="550.574,193.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[38]}" Height="65" Margin="550.574,259.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[39]}" Height="65" Margin="550.574,326.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[40]}" Height="65" Margin="550.574,392.833,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Source="{Binding Cells[41]}" Height="65" Margin="550.574,459.333,0,0" VerticalAlignment="Top" Width="65" Stretch="Fill"/>
+
+        <Label Content="PLAYER'S TURN" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top" Width="121" HorizontalContentAlignment="Center" FontFamily="Microsoft YaHei" FontSize="14" FontWeight="Bold"/>
+        <Image x:Name="CurrentPlayer" HorizontalAlignment="Left" Source="{Binding PlayerTurn}" Height="55" Margin="46,43,0,0" VerticalAlignment="Top" Width="56" Stretch="Fill"/>
+
+
+        <!--Red Player-->
+        <Label Content="{Binding Scores[0]}" HorizontalAlignment="Left" Height="51" Margin="30,285.814,0,0" VerticalAlignment="Top" Width="72" FontSize="36" HorizontalContentAlignment="Center" Foreground="Red"/>
+        <Label Content="RED" HorizontalAlignment="Left" Height="35" Margin="-0.574,250.814,0,0" VerticalAlignment="Top" Width="131.574" HorizontalContentAlignment="Center" FontFamily="Microsoft YaHei UI" VerticalContentAlignment="Center" FontSize="24" Foreground="Red"/>
+        
+        <!--Black Player-->
+        <Label Content="{Binding Scores[1]}" HorizontalAlignment="Left" Height="51" Margin="656,285.814,0,0" VerticalAlignment="Top" Width="72" FontSize="36" HorizontalContentAlignment="Center" Foreground="Black"/>
+        <Label Content="BLACK" HorizontalAlignment="Left" Height="35" Margin="635.575,250.814,0,0" VerticalAlignment="Top" Width="112.925" HorizontalContentAlignment="Center" FontFamily="Microsoft YaHei UI" VerticalContentAlignment="Center" FontSize="24" Foreground="Black"/>
+
+        <Image HorizontalAlignment="Center" Source="PlayField.png" Margin="131,52.333,129.851,0" VerticalAlignment="Top"/>
+
+        <!--Add Token in Column Buttons-->
+        <Button Visibility="{Binding AddTokenVisibility[0]}" Command="{Binding AddToken1Command}" Style="{DynamicResource NoMouseOverButton}"
+                HorizontalAlignment="Left" Height="65" Margin="136.574,43,0,0" VerticalAlignment="Top" Width="65" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="down-button.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform CenterY="0.5" CenterX="0.5" Angle="90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Visibility="{Binding AddTokenVisibility[1]}" Command="{Binding AddToken2Command}" Style="{DynamicResource NoMouseOverButton}"
+            HorizontalAlignment="Left" Height="65" Margin="206.574,43,0,0" VerticalAlignment="Top" Width="65" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="down-button.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Visibility="{Binding AddTokenVisibility[2]}" Command="{Binding AddToken3Command}" Style="{DynamicResource NoMouseOverButton}"
+            HorizontalAlignment="Left" Height="65" Margin="277.574,43,0,0" VerticalAlignment="Top" Width="65" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="down-button.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Visibility="{Binding AddTokenVisibility[3]}" Command="{Binding AddToken4Command}" Style="{DynamicResource NoMouseOverButton}"
+            HorizontalAlignment="Left" Height="65" Margin="347.574,43,0,0" VerticalAlignment="Top" Width="65" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="down-button.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Visibility="{Binding AddTokenVisibility[4]}" Command="{Binding AddToken5Command}" Style="{DynamicResource NoMouseOverButton}"
+            HorizontalAlignment="Left" Height="65" Margin="417.574,43,0,0" VerticalAlignment="Top" Width="65" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="down-button.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Visibility="{Binding AddTokenVisibility[5]}" Command="{Binding AddToken6Command}" Style="{DynamicResource NoMouseOverButton}"
+            HorizontalAlignment="Left" Height="65" Margin="487.574,43,0,0" VerticalAlignment="Top" Width="65" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="down-button.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+
+        <Button Visibility="{Binding AddTokenVisibility[6]}" Command="{Binding AddToken7Command}" Style="{DynamicResource NoMouseOverButton}"
+            HorizontalAlignment="Left" Height="65" Margin="557.574,43,0,0" VerticalAlignment="Top" Width="65" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="down-button.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="90" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

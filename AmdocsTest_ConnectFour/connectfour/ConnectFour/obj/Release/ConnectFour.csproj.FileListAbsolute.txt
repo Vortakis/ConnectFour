@@ -1,0 +1,15 @@
+C:\_dev\connectfour\ConnectFour\bin\Release\ConnectFour.exe.config
+C:\_dev\connectfour\ConnectFour\bin\Release\ConnectFour.exe
+C:\_dev\connectfour\ConnectFour\bin\Release\ConnectFour.pdb
+C:\_dev\connectfour\ConnectFour\obj\Release\View\MainWindow.g.cs
+C:\_dev\connectfour\ConnectFour\obj\Release\App.g.cs
+C:\_dev\connectfour\ConnectFour\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\_dev\connectfour\ConnectFour\obj\Release\ConnectFour_MarkupCompile.cache
+C:\_dev\connectfour\ConnectFour\obj\Release\ConnectFour_MarkupCompile.lref
+C:\_dev\connectfour\ConnectFour\obj\Release\View\MainWindow.baml
+C:\_dev\connectfour\ConnectFour\obj\Release\ConnectFour.g.resources
+C:\_dev\connectfour\ConnectFour\obj\Release\ConnectFour.Properties.Resources.resources
+C:\_dev\connectfour\ConnectFour\obj\Release\ConnectFour.csproj.GenerateResource.cache
+C:\_dev\connectfour\ConnectFour\obj\Release\ConnectFour.csproj.CoreCompileInputs.cache
+C:\_dev\connectfour\ConnectFour\obj\Release\ConnectFour.exe
+C:\_dev\connectfour\ConnectFour\obj\Release\ConnectFour.pdb
